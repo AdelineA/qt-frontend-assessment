@@ -11,10 +11,10 @@ const QuoteContent = () => {
         <Card title={""} key={testimonial.id} {...testimonial} />
       ))}
       <div className="flex justify-center mt-6 space-x-4">
-        <button className="p-1 border-2 border-gray-700 rounded-full hover:bg-gray-700 text-3xl text-center">
+        <button className="p-2 border-2 border-gray-700 rounded-lg hover:bg-gray-700 text-3xl text-center">
           &#8592;
         </button>
-        <button className="p-1 border-2 border-gray-700 rounded-full hover:bg-gray-700 text-3xl text-center">
+        <button className="p-2 border-2 border-gray-700 rounded-lg hover:bg-gray-700 text-3xl text-center">
           &#8594;
         </button>
       </div>
