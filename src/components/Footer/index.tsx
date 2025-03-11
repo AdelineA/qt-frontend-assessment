@@ -2,8 +2,8 @@ import { footerData } from "@/data/footerData";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0B1830] text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
+    <footer className="bg-[#0B1830] text-white py-10">
+      <div className="content-wrapper max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
         {footerData.map((section, index) => (
           <div key={index}>
             <h3 className="text-orange-500 font-semibold mb-2">

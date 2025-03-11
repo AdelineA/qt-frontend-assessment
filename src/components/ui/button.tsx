@@ -9,10 +9,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-#ee6123 text-black shadow-xs rounded-md",
-        primary: "text-white shadow-sm border-2 border-white  rounded-md",
+        default: "bg-[#0058dd] text-white border-2 shadow-xs rounded-md",
+        primary:
+          "text-white shadow-sm text-[#0058dd] border-2 border-[#0058dd] rounded-md",
         outline: "hover:bg-[#001f39] text-white  rounded-md",
-        secondary: "bg-white text-#0058dd border border-bg-#0058dd rounded-md",
+        secondary:
+          "bg-white text-[#0058dd] border border-bg-[#0058dd] rounded-md",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

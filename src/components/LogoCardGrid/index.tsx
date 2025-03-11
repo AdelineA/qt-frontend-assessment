@@ -18,7 +18,7 @@ const brands = [
 
 const LogoCardGrid = () => {
   return (
-    <section className="text-white py-10 text-center">
+    <section className="text-white py-10 text-center content-wrapper">
       <h2 className="text-2xl font-semibold leading-[29px] mb-4">
         Sign up for free. Your free plan includes:
       </h2>

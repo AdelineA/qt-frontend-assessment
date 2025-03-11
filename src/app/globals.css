@@ -4,6 +4,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer components {
+  .content-wrapper {
+    @apply xl:w-[79.16%] md:w-[85.6%] w-[90.6%] mx-auto;
+  }
+}
+
 :root {
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
