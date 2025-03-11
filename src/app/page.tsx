@@ -1,4 +1,5 @@
 import HeaderCard from "@/components/HeaderCard";
+import HeroCardContent from "@/components/HeroCardContent";
 import HeroContent from "@/components/Herocontent";
 import ImageCardGrid from "@/components/ImageCardGrid";
 import ImageContentGrid from "@/components/ImageContentGrid";
@@ -42,6 +43,8 @@ export default function Home() {
       <HeaderCard />
       <QuoteContent />
       <ImageContentGrid />
+      <HeroCardContent />
+      <div className="border-[1.5px] border-orange-500 w-full"></div>
     </div>
   );
 }
