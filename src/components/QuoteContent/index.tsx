@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const QuoteContent = () => {
   return (
-    <div className="bg-[rgb(243,102,0)] flex justify-center flex-col items-center py-16 px-4">
+    <div className="bg-[#f36600] flex justify-center flex-col items-center py-16 px-4">
       <h1 className="items-center text-4xl pb-10 font-bold">
         what Our customer are saying
       </h1>
