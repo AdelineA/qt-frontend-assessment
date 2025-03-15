@@ -5,7 +5,7 @@ const Sidebar = () => {
     <div className="w-1/2 bg-[#F0F4FF] flex justify-center items-center">
       <div className="max-w-md text-center">
         <Image
-          src="/images/analytics.png"
+          src="/assets/anay.png"
           alt="Analytics"
           width={450}
           height={300}
